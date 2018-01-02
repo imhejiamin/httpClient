@@ -2,14 +2,14 @@
 
 HTTP Reactive Client 是一个典型的消息（事件）驱动的案例。
 
-参考：
+## 参考：
 
 https://jersey.github.io/documentation/latest/rx-client.html#d0e5556
 
 http://blog.csdn.net/pmlpml/article/details/78850661
 
 
-练习要求：
+## 练习要求：
 
 1、依据文档图6-1，用中文描述 Reactive 动机。
 
@@ -21,7 +21,21 @@ http://blog.csdn.net/pmlpml/article/details/78850661
 
 5、思考： 是否存在一般性的解决方案？
 
-result：
+## 图6-1：
+
+![1](https://github.com/imhejiamin/httpClient/blob/master/pic/1.png)
+
+## 图6-2：
+
+![2](https://github.com/imhejiamin/httpClient/blob/master/pic/2.png)
+
+## 图6-3：
+
+![3](https://github.com/imhejiamin/httpClient/blob/master/pic/3.png)
+
+## result：
+
+可以知道，异步效率远高于同步（Naive Approach）。
 
 ![result](https://github.com/imhejiamin/httpClient/blob/master/pic/result.png)
 
